@@ -1,0 +1,199 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.hanken-grotesk-custom-font {
+  font-family: "Hanken Grotesk", serif;
+  font-optical-sizing: auto;
+}
+body {
+  background-color: hsl(221, 100%, 96%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.parent-div {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
+.left-div {
+  height: 320px;
+  width: 220px;
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.score-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 60%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 24%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  word-spacing: 3px;
+  gap: 2px;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.score {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  font-size: 45px;
+  color: white;
+}
+
+.out-of {
+  margin: 0;
+  color: #e1d9d9;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+h3 {
+  font-size: 16px;
+  opacity: 0.8;
+  color: #e1d9d9;
+  margin: 0px;
+  position: absolute;
+  top: 10%;
+}
+h2 {
+  font-size: 20px;
+  margin: 0px;
+  color: white;
+  position: absolute;
+  bottom: 90px;
+}
+p {
+  font-size: 12px;
+  opacity: 0.9;
+  max-width: 145px;
+  margin: 0px;
+  color: #e1d9d9;
+  position: absolute;
+  bottom: 35px;
+  text-align: center;
+}
+
+.right-div {
+  height: 320px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+h4 {
+  margin: 10px;
+  padding-right: 110px;
+}
+
+.continue-btn {
+  border: 0;
+  width: 180px;
+  height: 35px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+  margin: 15px;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.reaction {
+  background-color: hsl(0, 100%, 98%);
+  width: 180px;
+  height: 35px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.react {
+  color: hsl(0, 80%, 63%);
+  margin-right: 10px;
+}
+
+.react-scores {
+  margin-left: 25px;
+}
+
+.memory {
+  background-color: hsl(33, 73%, 97%);
+  width: 180px;
+  height: 35px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.mem {
+  color: hsl(39, 100%, 56%);
+  margin-right: 5px;
+}
+
+.mem-scores {
+  margin-left: 30px;
+}
+
+.verbal {
+  background-color: hsl(164, 85%, 95%);
+  width: 180px;
+  height: 35px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.verb {
+  color: hsl(166, 100%, 37%);
+}
+
+.verb-scores {
+  margin-left: 45px;
+}
+
+.visual {
+  background-color: hsl(221, 100%, 96%);
+  width: 180px;
+  height: 35px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.vis {
+  color: hsl(234, 85%, 45%);
+}
+
+.vis-scores {
+  margin-left: 45px;
+}
